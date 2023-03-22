@@ -63,10 +63,10 @@ def main():
 
         if predict_button and uploaded_image is not None:
             # Loading the trained model
-                model = tf.keras.models.load_model('best_model_2-2.h5')
+                #model = tf.keras.models.load_model('best_model_2-2.h5')
 
             # Predicting the output
-                prediction = model.predict(img_array.reshape(1, 224, 224, 3))
+                #prediction = model.predict(img_array.reshape(1, 224, 224, 3))
 
             
 
@@ -80,7 +80,7 @@ def main():
                 }
 
                 # perform inference on the pre-processed image and patient information
-                prediction = model.predict(img_array.reshape(1, 224, 224, 3))
+                #prediction = model.predict(img_array.reshape(1, 224, 224, 3))
 
             # decode the prediction
             
