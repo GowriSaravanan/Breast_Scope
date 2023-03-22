@@ -31,6 +31,8 @@ def main():
     )
     st.sidebar.title('Navigation')
     st.sidebar.markdown("[Home](https://mammascope.my.canva.site)")
+    st.sidebar.image('breastscope_logo.jpg', width=200)
+
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
     st.title('MammaScope in Action')
