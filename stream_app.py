@@ -29,6 +29,8 @@ def main():
         page_title="Breast Lesion Prediction App",
         page_icon="breastscope_logo.jpg"
     )
+    st.sidebar.title('Navigation')
+    st.sidebar.markdown("[Home](https://mammascope.my.canva.site)")
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
     st.title('MammaScope in Action')
